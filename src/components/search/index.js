@@ -31,7 +31,7 @@ const Search = () => {
     <form onSubmit={onSearchHandler} className="search-form">
       <input type="text" className="search" ref={searchInputRef} />
       <button type="submit" className="search-button">
-        🔎
+        <span role="img">🔎</span>
       </button>
     </form>
   );
